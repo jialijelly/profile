@@ -27,6 +27,18 @@ p {
     margin: 0;
 }
 
+a {
+    color: #2a363b;
+    font-family: 'Laila', serif;
+    font-size: 0.9rem;
+    text-decoration: none;
+    padding: 0;
+}
+
+a:hover {
+    color: #e84a5f;
+}
+
 #intro-h2 {
     margin: 0;
     font-size: 2rem;
@@ -69,4 +81,35 @@ p {
 .summary {
     padding-top: 200px;
     padding-bottom: 200px;
+}
+
+.end-section {
+    background-color: #112d4e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+}
+
+.row-cell {
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    display: block;
+}
+
+.icons {
+    width: 25px;
+    padding-top: 10px;
+}
+
+.external-links {
+    padding: 10px;
+    color: beige;
 }
